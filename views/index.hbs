@@ -1,0 +1,16 @@
+{{>header}}
+
+    <p>
+        Bienvenido a la página de promedio estudiante
+    </p>
+    <div class = 'container text-center'>
+        <form action='./calculos' method='post' class='row form-group' >
+            <input type='text' name='nombre' class='form-control col-sm-10' placeholder='nombre' required>
+            <input type='text' name='cedula' class='form-control col-sm-3' placeholder='cedula' required>
+            <input type='text' name='telefono' class='form-control col-sm-3' placeholder='telefono' required>
+            <input type='email' name='email' class='form-control col-sm-3' placeholder='email' required>
+            <br><button class='btn btn-primary'>Crear usuario</button>
+        </form>
+    </div>
+
+{{>footer}}

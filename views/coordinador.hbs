@@ -1,0 +1,60 @@
+{{>header}}
+
+<h2>Crear Curso</h2>
+     </form>
+
+                <form action='./crearCurso' method='post' class='row form-group' >}
+        
+            <input type='text' name='id' class='form-control col-sm-10' placeholder='id' required>
+            <input type='text' name='nombre' class='form-control col-sm-10' placeholder='nombre' required>
+            <input type='text' name='descripcion' class='form-control col-sm-10' placeholder='descripcion' required>
+            <input type='text' name='valor' class='form-control col-sm-10' placeholder='valor' required>
+            <input type='text' name='modalidad' class='form-control col-sm-10' placeholder='modalidad' >
+             <input type='text' name='intensidad' class='form-control col-sm-10' placeholder='intensidad' >
+            <br><button class='btn btn-primary'>Ver cursos</button>
+                                 
+        </form>
+
+
+          <h2>Eliminar curso estudiante</h2>
+        </form>
+
+                <form action='./mensajesEliminar' method='post' class='row form-group' >}
+        
+            <input type='text' name='cedula' class='form-control col-sm-10' placeholder='cedula' required>
+            <input type='text' name='curso' class='form-control col-sm-3' placeholder='curso' required>        
+            <br><button class='btn btn-primary'>Retirar estudiante </button>
+           
+           
+           
+        </form>
+
+        
+          <h2>Cambiar estado curso</h2>
+        </form>
+
+                <form action='./cambiarEstado' method='post' class='row form-group' >}
+
+            <input type='text' name='curso' class='form-control col-sm-3' placeholder='curso' required>        
+            <br><button class='btn btn-primary'>Cambiar estado</button>
+           
+           
+           
+        </form>
+
+
+
+        <h2>Actualizar Estudiante</h2>
+     </form>
+
+        <form action='./actualizarEstudiante' method='post' class='row form-group' >}
+            <input type='text' name='cedula' class='form-control col-sm-3' placeholder='cedula' required>
+            <input type='text' name='nombre' class='form-control col-sm-10' placeholder='nombre' required>        
+            <input type='text' name='telefono' class='form-control col-sm-3' placeholder='telefono' required>
+            <input type='email' name='email' class='form-control col-sm-3' placeholder='email' required>
+            <input type='text' name='rol' class='form-control col-sm-3' placeholder='rol' required>
+            <br><button class='btn btn-primary'>Actualizar estudiante</button>
+                                 
+        </form>
+
+{{>footer}}

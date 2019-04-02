@@ -1,0 +1,52 @@
+{{>header}}
+
+
+<br>
+          <div >  <table>
+                <th>Curso</th>
+                <th>Descripción</th>
+                <th>Intensidad</th>
+                <th>disponibilidad</th>
+                <th>modalidad</th>
+                <th>precio</th>
+                   <tr>
+                
+                        <td>Ingles</td>
+                        <td>Curso de ingles</td>
+                        <td>40 horas</td>
+                        <td>no disponible</td>
+                         <td>presencial</td>
+                        <td>320000</td>
+                   </tr>
+                   <tr>
+                         <td>Matemáticas</td>
+                        <td>Curso de matemáticas</td>
+                        <td>30 horas</td>
+                        <td>no disponible</td>   
+                         <td>virtual</td>
+                        <td>1200000</td>
+                     
+                  </tr>
+                    <tr> 
+                       
+                         <td>Ciencias</td>
+                        <td>Curso de ciencias</td>
+                        <td>35 horas</td>
+                        <td>disponible</td>
+                           <td>virtual</td>
+                        <td>1200000</td>
+                  </tr>
+
+
+            </table>
+</div> 
+        <div class = ' text-center'>
+        <form action='./mensajes' method='post' class='row form-group' >}
+        
+            <input type='text' name='cedula' class='form-control col-sm-10' placeholder='cedula' required>
+            <input type='text' name='curso' class='form-control col-sm-3' placeholder='curso' required>        
+            <br><button class='btn btn-primary'>Registrarse</button>
+           
+    </div>
+
+{{>footer}}
